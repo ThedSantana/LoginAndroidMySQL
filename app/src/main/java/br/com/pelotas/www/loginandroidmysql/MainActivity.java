@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnEnviar= (Button) findViewById(R.id.btnEnviar);
         edtNome = (EditText) findViewById(R.id.edtNome);
         edtSenha = (EditText) findViewById(R.id.edtSenha);
-        //teste
-
     }
     public void onClick(View v){
         if (v == btnEnviar){
